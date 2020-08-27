@@ -1,0 +1,17 @@
+.search {
+  text-align: center;
+}
+
+.search > input {
+  width: 60%;
+  padding: 1rem;
+  border-radius: 15px;
+  border: none;
+  margin-top: 1rem;
+  background: none;
+  color: white;
+}
+
+.search > input::placeholder {
+  color: white;
+}

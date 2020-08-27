@@ -1,0 +1,12 @@
+.movieDisplay__card {
+  display: grid;
+  place-items: center;
+  margin-top: 3rem;
+}
+
+.movieDisplay__info {
+  width: 60vw;
+  height: 400px;
+  border-radius: 15px;
+  background-color: white;
+}
