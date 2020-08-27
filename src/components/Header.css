@@ -1,0 +1,36 @@
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header > h1 {
+  flex: 0.5;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.header > ul > li > a:hover {
+  font-size: 1.2rem;
+  color: #06d6a0;
+}
+
+.header > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
