@@ -1,10 +1,11 @@
 import React from "react";
+import MovieCard from "./MovieCard";
 import "./MovieDisplay.css";
 
 function MoveDisplay() {
   return (
-    <div className="movieDisplay__card">
-      <div className="movieDisplay__info"></div>
+    <div className="movieDisplay">
+      <MovieCard />
     </div>
   );
 }
