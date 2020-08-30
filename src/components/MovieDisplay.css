@@ -1,5 +1,6 @@
 .movieDisplay {
-  display: grid;
-  place-items: center;
   margin-top: 3rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
 }

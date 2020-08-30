@@ -1,6 +1,23 @@
 .movieCard {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  width: 30vw;
+  height: 250px;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0.5rem;
+}
+
+.movieCard > img {
   width: 30vw;
   height: 250px;
   border-radius: 15px;
-  background-color: white;
+}
+
+.movieTitles {
+  color: white;
+  display: flex;
+}
+.movieCard {
+  border-radius: 20px;
 }
